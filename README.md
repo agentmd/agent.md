@@ -106,6 +106,9 @@ mv CLAUDE.md AGENT.md && ln -s AGENT.md CLAUDE.md
 # Cursor
 mv .cursorrules AGENT.md && ln -s AGENT.md .cursorrules
 
+# Firebase Studio
+ln -s AGENT.md .idx/airules.md
+
 # Gemini CLI, OpenAI Codex, OpenCode
 ln -s AGENTS.md AGENT.md
 
@@ -231,6 +234,7 @@ All configuration keys use consistent naming and MUST be documented.
 * **[Amp](/manual#AGENT.md):** Native support since [2025-05-07](/news/AGENT.md). [Multiple AGENT.md files](/news/multiple-AGENT.md-files) since 2025-07-07.
 * **[Claude Code](https://www.anthropic.com/claude-code):** Supports AGENT.md via symbolic linking (see Migration section).
 * **[Cursor](https://cursor.com):** Supports AGENT.md via symbolic linking (see Migration section).
+* **[Firebase Studio](https://firebase.google.com/studio):** Supports AGENT.md via symbolic linking (see Migration section).
 * **[Gemini CLI](https://github.com/google-gemini/gemini-cli):** Supports AGENT.md via symbolic linking (see Migration section).
 * **[OpenAI Codex](https://openai.com/codex/):** Supports AGENT.md via symbolic linking (see Migration section).
 * **[OpenCode](https://github.com/opencode-ai/opencode):** Supports AGENT.md via symbolic linking (see Migration section).
